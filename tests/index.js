@@ -8,8 +8,6 @@ module.exports = {
       .pause(7000)
       .click('.btn-success')
       .pause(1000)
-      .click('.btn-icon-content:last-child')
-      .pause(1000)
       .end();
   }
 };
