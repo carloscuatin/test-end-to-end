@@ -1,0 +1,34 @@
+12:01:28.233 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./node_modules/chromedriver/lib/chromedriver/chromedriver.exe
+12:01:28.264 INFO - Java: Oracle Corporation 25.60-b23
+12:01:28.264 INFO - OS: Mac OS X 10.10.5 x86_64
+12:01:28.272 INFO - v2.47.1, with Core v2.47.1. Built from revision 411b314
+12:01:28.329 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+12:01:28.329 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+12:01:28.329 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:01:28.330 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:01:28.411 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:01:28.411 INFO - Selenium Server is up and running
+12:01:28.650 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Index, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+12:01:28.659 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Index, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+12:01:30.995 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Index, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+12:01:31.006 INFO - Executing: [get: http://seguros.comparamejor.com/seguros-para-vehiculos/express/#/consultar-placa])
+12:01:35.050 INFO - Done: [get: http://seguros.comparamejor.com/seguros-para-vehiculos/express/#/consultar-placa]
+12:01:35.061 INFO - Executing: [find elements: By.cssSelector: body])
+12:01:35.115 INFO - Done: [find elements: By.cssSelector: body]
+12:01:35.125 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+12:01:35.132 INFO - Done: [find element: By.cssSelector: input[type=text]]
+12:01:35.136 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: input[type=text]], [x, c, v, 2, 3, 4, ]])
+12:01:35.291 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: input[type=text]], [x, c, v, 2, 3, 4, ]]
+12:01:42.301 INFO - Executing: [find element: By.cssSelector: .btn-success])
+12:01:42.309 INFO - Done: [find element: By.cssSelector: .btn-success]
+12:01:42.312 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: .btn-success]])
+12:01:42.421 INFO - Done: [click: 2 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: .btn-success]]
+12:01:43.432 INFO - Executing: [find element: By.cssSelector: .btn-icon-content:last-child])
+12:01:43.438 INFO - Done: [find element: By.cssSelector: .btn-icon-content:last-child]
+12:01:43.441 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: .btn-icon-content:last-child]])
+12:01:43.504 INFO - Done: [click: 3 [[FirefoxDriver: firefox on MAC (7a4f91de-424a-cc41-b2c7-c4f5de24ac14)] -> css selector: .btn-icon-content:last-child]]
+12:01:44.512 INFO - Executing: [delete session: 981351a2-cd9b-451b-8ed4-68600016bfc0])
+12:01:44.618 INFO - Done: [delete session: 981351a2-cd9b-451b-8ed4-68600016bfc0]

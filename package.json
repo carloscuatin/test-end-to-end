@@ -1,0 +1,21 @@
+{
+  "name": "robotux31",
+  "version": "1.0.0",
+  "description": "test end to end with nightwatch",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -c ./nightwatch.json --env default --tag ux31"
+  },
+  "author": "Carlos Cuatin <cecg1996@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.19.0",
+    "nightwatch": "^0.8.4",
+    "nightwatch-pages": "0.0.1",
+    "phantomjs": "^1.9.18",
+    "selenium-server": "^2.47.1"
+  }
+}
